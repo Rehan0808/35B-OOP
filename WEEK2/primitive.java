@@ -1,7 +1,19 @@
-package WEEK2;
+public class Primitive {
 
-public class primitive {
+    /* Instance variable
+     * Access with object
+     * Is not shared with othr object
+     */
+
+     int instanceVariable = 120;
+     /*Static variable
+      * Access with Class
+      * Is shared with other object
+      */
+     static int staticVariable=2000;
+
     public static void main(String[] args) {
+
         /* None primitive data type declaration */
         byte bytevalue;
 
@@ -34,8 +46,28 @@ public class primitive {
         /* Using Class */
         String stringInfo2 = new String("Class");
         /*Object use the same class as written above */
-        primitive variableObj = new primitive(); // class ko name + variableobj
-        
+        Primitive variableObj = new Primitive(); // class ko name + variableobj
+
+        /* illegal  action  */
+        /*byte bytevalue= 10;// You cannot redclare */
+        /*byteValue =20 ; //instead reassign */
+         /*boolean boolVal3 = 'false';// wrong data type
+         *short shortVal = 10000000;// cannot exceed min/max
+         */
+         
+/*We need to use object to acccess instance variable */
+System.out.println(variableObj.instanceVariable);
+/*We can access the static variable with class */
+System.out.println(Primitive.staticVariable);
+
+
+        /* Type casting */
+        /* Implicit type casting 
+         * From smaller type is larger type
+         */
+        int intValueConvert = 10;
+        double doubleValueConvert = 19.23d;
+        int doubleValueConvertedToInt = (int) doublevalue;
     }
     
 }
