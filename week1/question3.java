@@ -16,7 +16,6 @@ public class question3 {
 
         // '' is not the same as "
 
-        System.out.println(
-                "A \"quoted\" String is\n\'much\' better if you learn\nthe rules of \"escape sequences.\"\nAlso, \"\" represents an empty\nString. Don\'t forget: use \\\"\ninstead of \" !\n\'\'is not the same as\"");
+        System.out.println("A \"quoted\" String is \n \'much\' better if you learn \n Also , \"\"represent an empty .\n Don\'t to use \\ \"  instead of \" ! \n \'\' is not teh same as \" \"  ");
     }
 }

@@ -6,7 +6,8 @@ I am on module ST4003CEM
 
 System.out.print (not println) and produces the same output. */
 
-public class extend{
+
+public class EXT{
     public static void main(String[] args){
     
         System.out.print("Hello World");   

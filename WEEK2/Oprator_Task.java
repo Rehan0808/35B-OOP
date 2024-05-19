@@ -8,7 +8,7 @@
  * Formula: si=amount * time * rate/100; // use float/double
  */
 
- /* Task 3
+ /* Task 3pract
   * Write a program to print the area and perimeter of ractangle
   area = length * breadth
   perimeter = 2 (length = breadth)
@@ -21,10 +21,10 @@
 
 
 
-public class Task {
+public class Oprator_Task {
     public static void main(String[] args) {
         int rNum1=20 , rNum2 =21;
-        System.out.println("Greater than equal to "  + (rNum1>=rNum2));
+        System.out.println("Greater than equal to "  + (rNum1>=rNum2)); // (rNum1>=rNum) yesle chai boolean value generate garxa 2 ta variable lai compare gareko xa
 
         /* question 2 */
         int amount=100 , time= 2 , rate= 10;
