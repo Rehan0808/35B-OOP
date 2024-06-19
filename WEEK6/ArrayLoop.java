@@ -1,5 +1,5 @@
-package WEEK6;
 
+package WEEK6;
 public class ArrayLoop {
 
     public static void main(String[] args) {

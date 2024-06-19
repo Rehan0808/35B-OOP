@@ -1,4 +1,4 @@
-public class SimpleInterest {
+public class SimpleInterestt {
 
 
     public static void main(String[] args) {
